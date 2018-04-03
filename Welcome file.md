@@ -70,9 +70,15 @@
 </ul>
 <h2 id="vagrant-file-abändern">Vagrant-File abändern</h2>
 <p>Vagrant-File in Visual Studio Code öffnen.</p>
-<p>Änderungen:</p>
+<p>Änderungen an SSH-File:</p>
 <ul>
-<li>Am Ende des Codes -&gt; Firewall installieren</li>
+<li>Name des Servers -&gt; SHH_Srv</li>
+<li>IP-Adresse -&gt; 192.168.0.15</li>
+<li>Rechte der Benutzer -&gt; chmod 777</li>
+<li>Name der Benutzer Gruppe -&gt; myadmins</li>
+<li>Name der Benutzer -&gt; Dennis, Frank</li>
+<li>Passwort der Benutzer -&gt; Sommer2017!</li>
+<li>Einen 3ten Benutzer hinzugefügt -&gt; Thomas</li>
 </ul>
 <h2 id="testen">Testen</h2>
 
