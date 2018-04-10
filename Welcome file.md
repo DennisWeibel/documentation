@@ -80,32 +80,42 @@
 <li>Passwort der Benutzer -&gt; Sommer2017!</li>
 <li>Einen 3ten Benutzer hinzugefügt -&gt; Thomas</li>
 </ul>
+<h2 id="firewall--apache-anpassen">Firewall &amp; Apache anpassen</h2>
+<p>Ich habe ausserdem noch mit Visual Studio Code die Default Page von Apache2 verändern können und noch automatisch eine Firewall hinzufügen können.<br>
+Code:<br>
+<img src="https://perrone.myqnapcloud.com:450/share.cgi/apachecode.PNG?ssid=02YbC2K&amp;fid=02YbC2K&amp;path=/&amp;filename=apachecode.PNG&amp;openfolder=normal&amp;ep=" alt="enter image description here"></p>
+<p><img src="https://perrone.myqnapcloud.com:450/share.cgi/apachecode1.PNG?ssid=02YbC2K&amp;fid=02YbC2K&amp;path=/&amp;filename=apachecode1.PNG&amp;openfolder=normal&amp;ep=" alt="enter image description here"></p>
 <h2 id="testen">Testen</h2>
 <h3 id="vagrant-1">Vagrant</h3>
 <ul>
 <li>Zweck: 		                      	Virtelle Maschinen erzeugen</li>
 <li>Erwartetes Resultat: 			VM wird erstellt</li>
 <li>Tatächliches Resultat:		VM’s wurden erfolgreich erstellt</li>
-<li>Bildbeweis</li>
+<li>Bildbeweis<br>
+<img src="https://perrone.myqnapcloud.com:450/share.cgi/Vagrant.PNG?ssid=02YbC2K&amp;fid=02YbC2K&amp;path=/&amp;filename=Vagrant.PNG&amp;openfolder=normal&amp;ep=" alt="enter image description here"></li>
 </ul>
 <h3 id="github--gitlab">Github &amp; Gitlab</h3>
 <ul>
 <li>Zweck:									Funktionalität testen</li>
 <li>Erwartetes Resultat:			Man kann sich einloggen und Verzeichnisse erstellen</li>
 <li>Tatsächliches Resultat:		Das Login Funktioniert und man kann Github/Gitlab nach belieben verwenden.</li>
-<li>Bildbeweis:</li>
+<li>Bildbeweis:<br>
+<img src="https://perrone.myqnapcloud.com:450/share.cgi/Github.PNG?ssid=02YbC2K&amp;fid=02YbC2K&amp;path=/&amp;filename=Github.PNG&amp;openfolder=normal&amp;ep=" alt="enter image description here"></li>
 </ul>
 <h3 id="bash--git">Bash &amp; Git</h3>
 <ul>
 <li>Zweck:								Bash und Git funktionieren</li>
 <li>Erwartetes Resultat:			Befehle die man eingibt werden ausgeführt</li>
 <li>Tatsächliches Resultat:		Repository können geklont werden</li>
-<li>Bildbeweis:</li>
+<li>Bildbeweis:<br>
+<img src="https://perrone.myqnapcloud.com:450/share.cgi/gitbash.PNG?ssid=02YbC2K&amp;fid=02YbC2K&amp;path=/&amp;filename=gitbash.PNG&amp;openfolder=normal&amp;ep=" alt="enter image description here"></li>
 </ul>
 <h3 id="visual-studio-code-1">Visual Studio Code</h3>
 <ul>
 <li>Zweck:								Mit VS Code VM verändern die automatisch erzeugt wird</li>
 <li>Erwartetes Resultat:			Die Maschine wird mit den Änderungen erstellt</li>
 <li>Tatsächliches Resultat:		Die Änderungen sind in der VM zu sehen</li>
+<li>Bildbeweis:<br>
+<img src="https://perrone.myqnapcloud.com:450/share.cgi/VM_Modifiziert.PNG?ssid=02YbC2K&amp;fid=02YbC2K&amp;path=/&amp;filename=VM_Modifiziert.PNG&amp;openfolder=normal&amp;ep=" alt="enter image description here"></li>
 </ul>
 
