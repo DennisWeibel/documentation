@@ -118,4 +118,11 @@ Code:<br>
 <li>Bildbeweis:<br>
 <img src="https://perrone.myqnapcloud.com:450/share.cgi/VM_Modifiziert.PNG?ssid=02YbC2K&amp;fid=02YbC2K&amp;path=/&amp;filename=VM_Modifiziert.PNG&amp;openfolder=normal&amp;ep=" alt="enter image description here"></li>
 </ul>
+<h3 id="firewall">Firewall</h3>
+<ul>
+<li>Zweck:</li>
+<li>Erwartetes Ergebnis:</li>
+<li>Tatsächliches Resultat:</li>
+<li>Bildbeweis:</li>
+</ul>
 
