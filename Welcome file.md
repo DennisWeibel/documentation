@@ -45,7 +45,7 @@
 <h2 id="apache2">Apache2</h2>
 <p>Eine weitere Aufgabe war, einen Apache-Server aufzusetzen, den man im späteren Verlauf verwenden muss. Dafür habe ich einen Ubuntu-Server mit den gleichen Spezifikationen, wie der GitLab-Server aufgesetzt. Anschliessend habe ich Apache2 installiert, dabei habe ich ein <a href="https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-16-04">Guide</a> von DigitalOcean verwendet.</p>
 <h2 id="bash-und-git">Bash und Git</h2>
-<p>Um weiter vorgehen zu können, war es nötig Bash + Git zu installieren. Mit den Angaben im Skript konnte ich es erfolgreich fertigstellen. Danach habe ich noch das Repository von GitHub Project geklont.</p>
+<p>Um weiter vorgehen zu können, war es nötig Bash + Git zu installieren. Mit den Angaben im Skript konnte ich es erfolgreich fertigstellen. Danach habe ich noch das Repository von GitHub Project geklont. So kann ich nun</p>
 <h2 id="vagrant">Vagrant</h2>
 <p>Diese Anwendung wird für das automatisierte Erstellen vom VMs verwendet. Als erstes habe ich Vagrant heruntergeladen. Danach installierte ich Vagrant in Bash. -&gt; Anleitung Skript</p>
 <p>Um Vagrant zu testen, musste ich einen Apache-Server automatisch aufsetzten. Ich gab die nötigen Befehle ein und der Apache-Server wurde automatisch erfolgreich erstellt.</p>
@@ -81,4 +81,31 @@
 <li>Einen 3ten Benutzer hinzugefügt -&gt; Thomas</li>
 </ul>
 <h2 id="testen">Testen</h2>
+<h3 id="vagrant-1">Vagrant</h3>
+<ul>
+<li>Zweck: 		                      	Virtelle Maschinen erzeugen</li>
+<li>Erwartetes Resultat: 			VM wird erstellt</li>
+<li>Tatächliches Resultat:		VM’s wurden erfolgreich erstellt</li>
+<li>Bildbeweis</li>
+</ul>
+<h3 id="github--gitlab">Github &amp; Gitlab</h3>
+<ul>
+<li>Zweck:									Funktionalität testen</li>
+<li>Erwartetes Resultat:			Man kann sich einloggen und Verzeichnisse erstellen</li>
+<li>Tatsächliches Resultat:		Das Login Funktioniert und man kann Github/Gitlab nach belieben verwenden.</li>
+<li>Bildbeweis:</li>
+</ul>
+<h3 id="bash--git">Bash &amp; Git</h3>
+<ul>
+<li>Zweck:								Bash und Git funktionieren</li>
+<li>Erwartetes Resultat:			Befehle die man eingibt werden ausgeführt</li>
+<li>Tatsächliches Resultat:		Repository können geklont werden</li>
+<li>Bildbeweis:</li>
+</ul>
+<h3 id="visual-studio-code-1">Visual Studio Code</h3>
+<ul>
+<li>Zweck:								Mit VS Code VM verändern die automatisch erzeugt wird</li>
+<li>Erwartetes Resultat:			Die Maschine wird mit den Änderungen erstellt</li>
+<li>Tatsächliches Resultat:		Die Änderungen sind in der VM zu sehen</li>
+</ul>
 
