@@ -120,9 +120,10 @@ Code:<br>
 </ul>
 <h3 id="firewall">Firewall</h3>
 <ul>
-<li>Zweck:</li>
-<li>Erwartetes Ergebnis:</li>
-<li>Tatsächliches Resultat:</li>
-<li>Bildbeweis:</li>
+<li>Zweck: Kann man sich mit ssh verbinden?</li>
+<li>Erwartetes Ergebnis: Verbindung ist möglich</li>
+<li>Tatsächliches Resultat: Man kann sich per ssh auf die VM verbinden</li>
+<li>Bildbeweis:<br>
+<img src="https://perrone.myqnapcloud.com:450/share.cgi/firewall.PNG?ssid=02YbC2K&amp;fid=02YbC2K&amp;path=/&amp;filename=firewall.PNG&amp;openfolder=normal&amp;ep=" alt="enter image description here"></li>
 </ul>
 
