@@ -126,4 +126,26 @@ Code:<br>
 <li>Bildbeweis:<br>
 <img src="https://perrone.myqnapcloud.com:450/share.cgi/firewall.PNG?ssid=02YbC2K&amp;fid=02YbC2K&amp;path=/&amp;filename=firewall.PNG&amp;openfolder=normal&amp;ep=" alt="enter image description here"></li>
 </ul>
+<h2 id="docker">Docker</h2>
+<p>Docker wird genützt für OS-Virtualisierung und arbeitet mit Containern.</p>
+<h3 id="vorbereitung">Vorbereitung</h3>
+<p>Man braucht einen Linux Server mit User-Interface. Ich habe mich für Ubuntu mit Oberfläche entschieden.</p>
+<h3 id="installation">Installation</h3>
+<p>Files von Internet herunterladen und auf Ubuntu VM installieren.</p>
+<p>Testen ob Installation erfolgreich verlaufen ist: <strong>docker -v</strong><br>
+Wenn Info angezeigt wird heisst es, dass die Installation erfolgreich war.</p>
+<p>Danach testet man die Funktionsfähigkeit, indem man diesen Command laufen lässt:<br>
+<strong>docker run hello-world</strong></p>
+<p>Mit <strong>docker image ls</strong> kann man alle vorinstallierten Files ansehen.</p>
+<h3 id="eigener-docker-erstellen">Eigener Docker erstellen</h3>
+<p>Um einen eigenen Docker erstellen zu können muss man als erstes einen neuen Ordner (dockerfile) anlegen. In diesem Ordner erstellt man 3 Files: Dockerfile, requirements.txt, app,py</p>
+<p>In diesen Files muss man dann noch den vorgesehenen Inhalt einfügen.</p>
+<p>Danach muss man den folgende Befehl ausführen:<br>
+<strong>pip install -r requirements.txt</strong><br>
+Jetzt ist es soweit, dass man sein eigenes Docker Image erstellen kann mit dem Command:<br>
+<strong>docker build -t friendlyhellotest .</strong></p>
+<p>Man kann jetzt das Dockerfile auch im Verzeichnis einsehen.</p>
+<p>Um die App zu starten kann man diesen Befehl verwenden:<br>
+<strong>docker run -p 4000:80 friendlyhellotest</strong></p>
+<p>Wenn man nun im Browser als URL localhost:4000 eigibt erscheint die Meldung das die APP läuft.</p>
 
